@@ -1,0 +1,152 @@
+.sliderCanvas{
+    width: 100%;
+    height: calc(100vh/1.4);
+    background: url('../Location/1.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    position: relative;
+}
+.sliderCanvas .overlayDark,
+.sliderCanvasFeature .overlayDark,
+.sliderCanvasSitePlans .overlayDark,
+.sliderCanvasFloorPlans .overlayDark,
+.sliderCanvasSpecs .overlayDark,
+.sliderCanvasGallery .overlayDark{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0000003b;
+    z-index: 0;
+}
+
+.sliderCanvas p{
+    font-size: 40px;
+    font-family: Unbounded;
+    color: #fff;
+    font-weight: 300;
+    position: absolute;
+    z-index: 23;
+}
+
+.sliderCanvasFeature{
+    width: 100%;
+    height: calc(100vh / 1.4);
+    background: url('../Features/1.jpg');
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    position: relative;
+}
+
+.sliderCanvasFeature p{
+    font-size: 40px;
+    font-family: Unbounded;
+    color: #fff;
+    font-weight: 300;
+    position: absolute;
+    z-index: 23;
+}
+
+
+.sliderCanvasSitePlans{
+    width: 100%;
+    height: calc(100vh / 1.4);
+    background: url('../Site_Plan/1.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    position: relative;
+}
+
+.sliderCanvasSitePlans p{
+    font-size: 40px;
+    font-family: Unbounded;
+    color: #fff;
+    font-weight: 300;
+    position: absolute;
+    z-index: 23;
+}
+
+
+.sliderCanvasFloorPlans{
+    width: 100%;
+    height: calc(100vh / 1.4);
+    background: url('../Floor_Plans/1.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    position: relative;
+}
+
+.sliderCanvasFloorPlans p{
+    font-size: 40px;
+    font-family: Unbounded;
+    color: #fff;
+    font-weight: 300;
+    position: absolute;
+    z-index: 23;
+}
+
+
+.sliderCanvasSpecs{
+    width: 100%;
+    height: calc(100vh / 1.4);
+    background: url('../Specifications/1.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    position: relative;
+}
+
+.sliderCanvasSpecs p{
+    font-size: 40px;
+    font-family: Unbounded;
+    color: #fff;
+    font-weight: 300;
+    position: absolute;
+    z-index: 23;
+}
+
+
+.sliderCanvasGallery{
+    width: 100%;
+    height: calc(100vh / 1.4);
+    background: url('../Gallery/2.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    position: relative;
+}
+
+.sliderCanvasGallery p{
+    font-size: 40px;
+    font-family: Unbounded;
+    color: #fff;
+    font-weight: 300;
+    position: absolute;
+    z-index: 23;
+}
+
+
+@media only screen and (max-width:920px){
+    .sliderCanvasGallery,
+    .sliderCanvasSpecs,
+    .sliderCanvasFloorPlans,
+    .sliderCanvas,.sliderCanvasFeature,
+    .sliderCanvasSitePlans{
+        height: calc(100vh /2.5);
+    }
+}
